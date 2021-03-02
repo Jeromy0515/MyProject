@@ -1,4 +1,4 @@
-package test;
+package foundation;
 
 @FunctionalInterface
 interface Test{
@@ -16,7 +16,6 @@ public class Anonymous {
 	public static void main(String[] args) {
 		
 		
-		
 		Test test = new Test() {
 			@Override
 			public void print() {
@@ -26,8 +25,8 @@ public class Anonymous {
 		Test test2 = () -> {
 			System.out.println("두번째 인터페이스입니다");
 		};
-		
-		
+
+
 		MyClass mc = new MyClass() {
 			@Override
 			void print() {
