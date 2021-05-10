@@ -72,7 +72,7 @@ class RamenCook implements Runnable{
 			
 		}
 		
-	}
+	} 
 	
 	private void showBurners() {
 		String stringToPrint = "                                    ";
